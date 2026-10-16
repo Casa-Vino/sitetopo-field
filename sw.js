@@ -1,6 +1,6 @@
 /* SiteTopo Field service worker: the app works with no signal, updates itself, and keeps map tiles.
    Built from src/sw.js – the build id below changes with every build, so each new upload is picked up. */
-const BUILD = '2026-10-16-ff605ccf1e';
+const BUILD = '2026-10-16-f401ab4969';
 const SHELL = 'shell-' + BUILD;
 const SHELL_FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png'];
 const BROWSE = 'tiles-browse';
