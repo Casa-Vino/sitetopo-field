@@ -1,4 +1,4 @@
-SiteTopo Field – web app files (SiteTopo 3D v1.4.1)
+SiteTopo Field – web app files (SiteTopo 3D v1.5.0)
 ====================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
@@ -36,8 +36,13 @@ Updating later (new version from Claude)
     › Commit changes. On the phone the app offers "Update now" the next time it is opened with signal
     (or Settings › Check for update). Records are kept.
 
-Getting the records to the laptop
-  - Site screen › "Save package (.zip)" – goes to the phone's Downloads. Send it to the laptop (Quick Share,
-    Google Drive, email or USB) and drop it on SiteTopo 3D: the site, test holes, logs and DCPs load in
-    step 1 and step 6. In SiteTopo 3D › Field › the site › "Save to job folder…" writes the photos and
-    tables into the job folder (it never overwrites a file – a second copy gets "(2)").
+Getting the records to the laptop – Google Drive upload (set up once)
+  - On the laptop: SiteTopo 3D › Field › ⚙ › "Google Drive upload" and follow its four steps (copy the script
+    into script.google.com, deploy it as a Web app, paste its address, scan the code with the phone).
+  - Install Google Drive for desktop on the laptop; then Field › "Link the uploads folder…" → your Drive
+    folder SiteTopo3D (uploads go there, one folder per site).
+  - Phone: a site › "Upload to Google Drive", or "Upload all" on the site list. With no signal the files wait
+    on the phone and go by themselves when the signal comes back (even with the app closed).
+  - Laptop: Field › "Uploads from the phone" lists new and updated sites › Import › then "Show in SiteTopo 3D"
+    or "Save to job folder…" (never overwrites a file – a second copy gets "(2)").
+  Without Google Drive: site › "Save package (.zip)" (to Downloads), copy it to the laptop and drop it on SiteTopo 3D.
