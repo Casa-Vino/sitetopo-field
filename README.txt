@@ -1,4 +1,4 @@
-SiteTopo Field – web app files (SiteTopo 3D v1.4.0)
+SiteTopo Field – web app files (SiteTopo 3D v1.4.1)
 ====================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
@@ -24,7 +24,9 @@ First upload (GitHub, in the browser)
 
 On the phone (Android, Chrome)
   - Open the address above, then ⋮ › "Add to Home screen" › Install. Open "SiteTopo" from the home screen.
-  - Allow location when asked. Settings (⚙) › "Protect storage" so Android never clears the records.
+  - Allow location when asked, with "precise" location: Settings › Apps › Chrome › Permissions › Location ›
+    "Use precise location" on (otherwise the app only gets about ±2 km). Outdoors expect about ±3–5 m.
+  - Settings (⚙) › "Protect storage" so Android never clears the records.
   - Before a site with poor signal: open the site while you have signal and tap "Save map for offline".
   - External GPS receiver: set its app as the phone's location source ("mock location" in Developer
     options); the accuracy chip at the top then shows the receiver's accuracy.
