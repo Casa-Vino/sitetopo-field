@@ -1,4 +1,4 @@
-SiteTopo Field – web app files (SiteTopo 3D v1.5.2)
+SiteTopo Field – web app files (SiteTopo 3D v1.6.0)
 ====================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
@@ -35,6 +35,27 @@ Updating later (new version from Claude)
   - Repository › Add file › Upload files › drag in the new files (same names – they replace the old ones)
     › Commit changes. On the phone the app offers "Update now" the next time it is opened with signal
     (or Settings › Check for update). Records are kept.
+
+Logging test holes (v1.6)
+  - Hole › "+ Layer": one step at a time – Depth, Horizon, Colour (Munsell page: tap the chip, the name fills in),
+    Texture, Structure, Moisture, Consistency (with "changes deeper to"), Extras, Class. A tap moves on by itself;
+    the tabs along the top jump to any step. "Same as above" copies that step from the layer above.
+  - 🎤 (top right) or "Say a layer": say it the way you write it – "0.23 to 0.32, A2, dark brown, 10YR 3/3, silty mud,
+    weak structure, massive, very wet" – check what it understood, then Apply (or Apply + next layer). Chrome's
+    microphone needs signal; the keyboard's microphone (Gboard) works without it once its offline English pack is
+    downloaded (Gboard settings › Voice typing › Offline speech recognition).
+  - Your own words ("Silty mud", "Sand rich phase", "Sandstone interval"…) become buttons and are understood by voice.
+  - The description is written like the reports: "Very Dark Brown. 10YR 2/2. Sandy loam. Weak structure. Soft -> firm.
+    Roots throughout." – change the wording on the Class step if needed.
+  - Hole › "Copy table for Word" (or "Report table") gives the report's soil profile table; every hole is also in
+    "<site> - soil profiles.html" in the package and on Google Drive.
+
+Your records are safe
+  - Every tap is saved on the phone within half a second ("Saved on this phone 10:42:13" at the top).
+  - With Google Drive connected, the site also backs itself up a minute after you stop (at least every 4 minutes while
+    you work, and straight away when the app goes into the background).
+  - Site › "Earlier versions…": copies kept on the phone (when opened, every few minutes, before anything is deleted);
+    Restore brings one back. Settings › "Recover a deleted site" brings back a deleted site's logs.
 
 Getting the records to the laptop – Google Drive upload (set up once)
   - On the laptop: SiteTopo 3D › Field › ⚙ › "Google Drive upload" and follow its four steps (copy the script
