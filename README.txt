@@ -1,4 +1,4 @@
-SiteTopo Field – web app files (SiteTopo 3D v1.6.0)
+SiteTopo Field – web app files (SiteTopo 3D v1.6.1)
 ====================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
@@ -47,6 +47,10 @@ Logging test holes (v1.6)
   - Your own words ("Silty mud", "Sand rich phase", "Sandstone interval"…) become buttons and are understood by voice.
   - The description is written like the reports: "Very Dark Brown. 10YR 2/2. Sandy loam. Weak structure. Soft -> firm.
     Roots throughout." – change the wording on the Class step if needed.
+  - Hold any button on the log screen (about half a second) to see what it means – key numbers (clay %, ribbon length,
+    shear strength …), what to look for, how to test, and the source (Australian Soil and Land Survey Field Handbook,
+    AS 1726:2017). Holding doesn't pick it. Hold one of your own words to write its definition for the team.
+    Settings › Soil terms lists everything, with "Save as a training sheet" for printing.
   - Hole › "Copy table for Word" (or "Report table") gives the report's soil profile table; every hole is also in
     "<site> - soil profiles.html" in the package and on Google Drive.
 
