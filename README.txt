@@ -1,5 +1,5 @@
-SiteTopo Field – web app files (SiteTopo 3D v1.6.1)
-====================================================
+SiteTopo Field – web app files (SiteTopo 3D v2.4)
+==================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
 (or any static web host) and open the link on the phone: it installs to the home screen, works with no
@@ -53,6 +53,49 @@ Logging test holes (v1.6)
     Settings › Soil terms lists everything, with "Save as a training sheet" for printing.
   - Hole › "Copy table for Word" (or "Report table") gives the report's soil profile table; every hole is also in
     "<site> - soil profiles.html" in the package and on Google Drive.
+
+Checks while you log (v2.1)
+  - A new DCP asks which test hole it is at – the nearest one first (from the phone's position). The DCP screen and
+    the site list say when a DCP is not linked, or is linked to a hole that isn't the nearest ("Link to TH2 (2.8 m)").
+  - The hole screen flags an end-of-hole depth that doesn't match the bottom of the log, with one-tap fixes
+    ("EOH = 1.4 m" or "Extend last layer to 1.6 m").
+  - A hole or DCP recorded outside the lot you picked on the LIST is flagged ("Outside the lot boundary – 6 m away").
+
+Paper log sheets (v2.1)
+  - Print "Field log sheet v2 - soil description.pdf" (black squares in the four corners). Fill it in by hand as usual.
+  - Site › Paper sheets › "📄 Scan a sheet": lay the sheet flat in even light, all four corner squares in the picture
+    (or "From photos" for pictures already taken). The page is straightened and recognised (page 1, 2 or the DCP page),
+    any way up. Ticked boxes and circled Y / N show green; orange means check it – tap a box to change it ("Zoom"
+    makes them bigger).
+  - Choose the hole the log rows are for (or "+ New test hole") and Save. Ticks fill only empty fields (site details,
+    method, refusal, structure, moisture, consistency, origin); rows with writing become layers in order. The
+    straightened sheet is kept as a photo of the hole. Each layer then shows its strip of the sheet above the picks
+    (tap it to zoom), so the handwriting can be typed in beside it; each DCP shows its column of the DCP page.
+  - Handwriting with Claude: "Package for Claude" makes "<site> - sheets for Claude.zip". Give it to Claude (Cowork)
+    and ask: "Transcribe these SiteTopo field sheets into a SiteTopo transcription file." Open the file Claude returns
+    with "Open a transcription…" (or "Open a site file…", or drop it on SiteTopo 3D): every change is listed – fill empty
+    fields only, or use the sheet's values – and a copy of the site is kept under Earlier versions first.
+
+On a computer (v2.3)
+  - The same index.html is the full SiteTopo 3D on a computer. New in v2.3: the "Library" button – every logged site
+    from one file (SiteTopo site library - all sites.json), shown on the map, switched on or off, opened in 3D with the
+    sites around it. v2.2 added step 6 › Coastal hazards & tides.
+
+What's here (v2.4)
+  - In the full program (map or 3D view), tap the ground: a card lists everything shown there – coastal bands, DEA
+    shorelines with their years, shoreline change, services, the landslide planning map, the parcel, nearby holes and
+    DCPs (tap one for its log), and the ground level, slope and coordinates.
+
+Site library on the phone (v2.3.1)
+  - Save "SiteTopo site library - all sites.json" to the phone (e.g. Downloads). On the Field screen tap "Site library"
+    (or "Open a site file…") › Open file… › choose it. It is kept on the phone for next time, separate from your site
+    records – it is never uploaded to Google Drive or anywhere else. Never put the library file in the GitHub
+    repository: the repository is public.
+  - The list: search (ID, address, suburb, firm, "class H2"…), filter own / other firms / phone records, the eye
+    switches a site on or off. Tap a site to see it on the map; "Open" shows it with the logged sites within 400 m
+    (the list closes so the map can be seen – the header's "Library" button brings it back). Tap a hole or DCP on
+    the map for its log card; step 3 › Build surface, then "3D view", for the 3D picture.
+  - Phone screens: the header buttons now scroll sideways, and the library and hole cards fill the map.
 
 Your records are safe
   - Every tap is saved on the phone within half a second ("Saved on this phone 10:42:13" at the top).
