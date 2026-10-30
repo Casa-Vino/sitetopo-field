@@ -1,4 +1,4 @@
-SiteTopo Field – web app files (SiteTopo 3D v2.4)
+SiteTopo Field – web app files (SiteTopo 3D v2.5)
 ==================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
@@ -99,6 +99,21 @@ Site library on the phone (v2.3.1)
     (the list closes so the map can be seen – the header's "Library" button brings it back). Tap a hole or DCP on
     the map for its log card; step 3 › Build surface, then "3D view", for the 3D picture.
   - Phone screens: the header buttons now scroll sideways, and the library and hole cards fill the map.
+
+GitHub backup – when Google Drive or the laptop cannot be reached (v2.5)
+  - A second copy of the site records and photos, and the site library, in your PRIVATE repository
+    Casa-Vino/sitetopo-data (not this public one). Google Drive upload carries on as before.
+  - Set up once: on github.com make the private repository sitetopo-data (with a README) and upload the site library
+    to it; then Settings › Developer settings › Personal access tokens › Fine-grained tokens › Generate new token:
+    only that repository, Repository permissions › Contents: Read and write. On the phone: ⚙ Settings › GitHub backup
+    › paste the key (github_pat_…) › Save & test. The key stays on the phone; it is never put in a package or upload.
+  - Then each site backs itself up to GitHub a minute after you stop changing it, when the app goes into the
+    background and when the signal comes back (only changed files; folder sites/<site>/ – the same files as Google
+    Drive). The home screen shows how many sites are on GitHub; "Back up to GitHub" sends the rest now.
+  - New or reset phone: install the app, paste the key, then ⚙ Settings › "Restore from GitHub" (every site with its
+    photos) and "Download the site library".
+  - SiteTopo refuses a public repository. Lost the phone? On github.com delete the key (Fine-grained tokens › Delete)
+    – it stops working at once; make a new one for the new phone.
 
 Your records are safe
   - Every tap is saved on the phone within half a second ("Saved on this phone 10:42:13" at the top).
