@@ -35,6 +35,9 @@ Updating later (new version from Claude)
   - Repository › Add file › Upload files › drag in the new files (same names – they replace the old ones)
     › Commit changes. On the phone the app offers "Update now" the next time it is opened with signal
     (or Settings › Check for update). Records are kept.
+  - Upload ONLY the program files listed above. This repository is public: never upload the site library
+    ("SiteTopo site library - all sites.json"), field packages, photos or anything with client details.
+    Keep the library in the X-Safe Folder / Google Drive and open it on the phone with "Open file…".
 
 Logging test holes (v1.6)
   - Hole › "+ Layer": one step at a time – Depth, Horizon, Colour (Munsell page: tap the chip, the name fills in),
