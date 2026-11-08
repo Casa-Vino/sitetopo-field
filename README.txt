@@ -1,4 +1,4 @@
-SiteTopo Field – web app files (SiteTopo 3D v2.5)
+SiteTopo Field – web app files (SiteTopo 3D v2.6)
 ==================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
@@ -35,9 +35,6 @@ Updating later (new version from Claude)
   - Repository › Add file › Upload files › drag in the new files (same names – they replace the old ones)
     › Commit changes. On the phone the app offers "Update now" the next time it is opened with signal
     (or Settings › Check for update). Records are kept.
-  - Upload ONLY the program files listed above. This repository is public: never upload the site library
-    ("SiteTopo site library - all sites.json"), field packages, photos or anything with client details.
-    Keep the library in the X-Safe Folder / Google Drive and open it on the phone with "Open file…".
 
 Logging test holes (v1.6)
   - Hole › "+ Layer": one step at a time – Depth, Horizon, Colour (Munsell page: tap the chip, the name fills in),
@@ -84,6 +81,25 @@ On a computer (v2.3)
     from one file (SiteTopo site library - all sites.json), shown on the map, switched on or off, opened in 3D with the
     sites around it. v2.2 added step 6 › Coastal hazards & tides.
 
+New in v2.6
+  - Landslide risk (computer): step 8 and the Risk tab – the AGS (2007c) risk assessment. One row per mechanism ×
+    receptor × state (existing / construction / operation / with treatment); property rows use the likelihood ×
+    consequence matrix, life rows R(LOL) = P(H) × P(S:H) × P(T:S) × V(D:T), summed per person against 10⁻⁵ per annum.
+    Sensitivity check, editable matrix, Copy tables for Word and Export CSV. The tables are kept in the project file
+    only – nothing about a job is in these web files.
+
+New in v2.5
+  - Corrections made on the laptop survive the phone's next upload: the update is merged, not replaced. Anything
+    changed on one side only comes in by itself; a value changed on both is listed and you choose (the laptop's copy
+    is ticked). The laptop keeps a copy under Earlier versions before every merge.
+  - Soft ground: DCPs coloured by the share of soft readings, the mean blows over a depth window (0.6-1.4 m unless you
+    change it) or the depth reached - on the map, in 3D, on the plan and on sections. Terrain lows (old channels) and
+    flow paths as overlays (step 4).
+  - Lab results: on the laptop, Field > site > "Lab results from the calc workbook..." reads LL, PL, PI, LS and the lab
+    USCS class from the job's Template_3 workbook into the samples.
+  - Upload index.html and sw.js again (the other files are unchanged); the phone updates itself the next time the app
+    is opened with signal.
+
 What's here (v2.4)
   - In the full program (map or 3D view), tap the ground: a card lists everything shown there – coastal bands, DEA
     shorelines with their years, shoreline change, services, the landslide planning map, the parcel, nearby holes and
@@ -99,21 +115,6 @@ Site library on the phone (v2.3.1)
     (the list closes so the map can be seen – the header's "Library" button brings it back). Tap a hole or DCP on
     the map for its log card; step 3 › Build surface, then "3D view", for the 3D picture.
   - Phone screens: the header buttons now scroll sideways, and the library and hole cards fill the map.
-
-GitHub backup – when Google Drive or the laptop cannot be reached (v2.5)
-  - A second copy of the site records and photos, and the site library, in your PRIVATE repository
-    Casa-Vino/sitetopo-data (not this public one). Google Drive upload carries on as before.
-  - Set up once: on github.com make the private repository sitetopo-data (with a README) and upload the site library
-    to it; then Settings › Developer settings › Personal access tokens › Fine-grained tokens › Generate new token:
-    only that repository, Repository permissions › Contents: Read and write. On the phone: ⚙ Settings › GitHub backup
-    › paste the key (github_pat_…) › Save & test. The key stays on the phone; it is never put in a package or upload.
-  - Then each site backs itself up to GitHub a minute after you stop changing it, when the app goes into the
-    background and when the signal comes back (only changed files; folder sites/<site>/ – the same files as Google
-    Drive). The home screen shows how many sites are on GitHub; "Back up to GitHub" sends the rest now.
-  - New or reset phone: install the app, paste the key, then ⚙ Settings › "Restore from GitHub" (every site with its
-    photos) and "Download the site library".
-  - SiteTopo refuses a public repository. Lost the phone? On github.com delete the key (Fine-grained tokens › Delete)
-    – it stops working at once; make a new one for the new phone.
 
 Your records are safe
   - Every tap is saved on the phone within half a second ("Saved on this phone 10:42:13" at the top).
