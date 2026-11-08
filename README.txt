@@ -1,5 +1,5 @@
-SiteTopo Field – web app files (SiteTopo 3D v2.6)
-==================================================
+SiteTopo Field – web app files (SiteTopo 3D v2.6.1)
+====================================================
 
 These files are the SiteTopo 3D program set up as a web app for the phone. Put them on GitHub Pages
 (or any static web host) and open the link on the phone: it installs to the home screen, works with no
@@ -87,6 +87,9 @@ New in v2.6
     consequence matrix, life rows R(LOL) = P(H) × P(S:H) × P(T:S) × V(D:T), summed per person against 10⁻⁵ per annum.
     Sensitivity check, editable matrix, Copy tables for Word and Export CSV. The tables are kept in the project file
     only – nothing about a job is in these web files.
+  - v2.6.1: a life row with an empty or invalid box shows "incomplete" (the person's total and the state too) instead
+    of being left out; matrix cells show their colours; risks print the same everywhere and a total over 10⁻⁵ never
+    prints as 10⁻⁵; the CSV keeps every digit; number columns no longer wrap in Word.
 
 New in v2.5
   - Corrections made on the laptop survive the phone's next upload: the update is merged, not replaced. Anything
